@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import './App.css';
 import { FaStar } from "react-icons/fa";
 
 const colors = {
