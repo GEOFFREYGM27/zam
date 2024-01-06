@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input[type="date"]{
+  display: inline-flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Add your external styles here */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.textarea {
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+  min-height: 100px;
+  width: 300px;
+}
+
+.button {
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+}
+
+#chat-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#chat-messages {
+  padding: 20px;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+#user-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #eee;
+  border-top: 1px solid #ddd;
+}
+
+#user-input input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#user-input button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
